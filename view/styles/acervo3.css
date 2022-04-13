@@ -1,0 +1,36 @@
+.sidenav {
+    width: 250px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #05A6A6;
+}
+  
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+  
+.active1 {
+    background-color: rgba(23, 41, 83, 0.733);
+    color: white;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #333;
+    padding-left: 15px;
+}
